@@ -12,37 +12,37 @@
     "standard": {
       "target": "standard",
       "provenance": {
-        "id": "38403559",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403559",
-        "digest": "sha256:689384281f5ec46ebaaef9c4503c600aa43874623396acf6d3807843fccdf913"
+        "id": "38409794",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409794",
+        "digest": "sha256:80da25b652c8e22656607802b1526d0a73fd142fcbbbf37474f4a567fdf6ebbe"
       },
       "sbom": {
-        "id": "38403567",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403567"
+        "id": "38409809",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409809"
       }
     },
     "distroless": {
       "target": "distroless",
       "provenance": {
-        "id": "38403556",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403556",
-        "digest": "sha256:ee626e89616e293106bb29acbca35617b2958d3098d129e1345053b41a10c771"
+        "id": "38409777",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409777",
+        "digest": "sha256:82f734a74298035530777fb0a3bb15a24d180916ae94c33cf6e444360cd822e8"
       },
       "sbom": {
-        "id": "38403561",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403561"
+        "id": "38409791",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409791"
       }
     },
     "development": {
       "target": "development",
       "provenance": {
-        "id": "38403557",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403557",
-        "digest": "sha256:25146d09c4c8dbf2807503ef1ffc1ef827ba8d9b92f7caf5270a6ba7d9a50883"
+        "id": "38409786",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409786",
+        "digest": "sha256:ce8d38acc9abd878c07419ccd2ccedc4613ee99af7ade8df1c51dcf2e342b7dd"
       },
       "sbom": {
-        "id": "38403583",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403583"
+        "id": "38409814",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409814"
       }
     }
   },
@@ -54,8 +54,8 @@
   },
   "reports": {
     "distroless": {
-      "created": 1785663274.607636,
-      "duration": 60.6074104309082,
+      "created": 1785668423.1939924,
+      "duration": 60.4595103263855,
       "exitcode": 1,
       "root": "/home/runner/work/openssl_fips/openssl_fips/tests",
       "environment": {},
@@ -520,15 +520,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0006987319999893771,
+            "duration": 0.0007137650000004214,
             "outcome": "passed"
           },
           "call": {
-            "duration": 1.2032639680000443,
+            "duration": 0.8812458640000074,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0002293309999572557,
+            "duration": 0.0002423050000004423,
             "outcome": "passed"
           }
         },
@@ -548,11 +548,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.000490812000009555,
+            "duration": 0.0004818349999879956,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2088235260000033,
+            "duration": 0.2016100310000013,
             "outcome": "passed",
             "log": [
               {
@@ -569,20 +569,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663215.3018477,
-                "msecs": 301,
-                "relativeCreated": 1537.795895,
-                "thread": 140522995927936,
+                "created": 1785668363.711558,
+                "msecs": 711,
+                "relativeCreated": 1208.702881,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:35"
+                "asctime": "2026-08-02 10:59:23"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020813100002214924,
+            "duration": 0.00021912999999074145,
             "outcome": "passed"
           }
         },
@@ -602,11 +602,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00029232899998987705,
+            "duration": 0.00030043200000307024,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2021750030000362,
+            "duration": 0.19570051600000227,
             "outcome": "passed",
             "log": [
               {
@@ -623,20 +623,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663215.5126245,
-                "msecs": 512,
-                "relativeCreated": 1748.572419,
-                "thread": 140522995927936,
+                "created": 1785668363.9151347,
+                "msecs": 915,
+                "relativeCreated": 1412.279462,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:35"
+                "asctime": "2026-08-02 10:59:23"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0001851179999903252,
+            "duration": 0.00019767700000272725,
             "outcome": "passed"
           }
         },
@@ -656,11 +656,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003234970000107751,
+            "duration": 0.00029428300000233776,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1951749209999889,
+            "duration": 0.20144421100000898,
             "outcome": "passed",
             "log": [
               {
@@ -677,20 +677,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663215.7167325,
-                "msecs": 716,
-                "relativeCreated": 1952.680312,
-                "thread": 140522995927936,
+                "created": 1785668364.1127675,
+                "msecs": 112,
+                "relativeCreated": 1609.912206,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:35"
+                "asctime": "2026-08-02 10:59:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018349399999806337,
+            "duration": 0.00019912000000488206,
             "outcome": "passed"
           }
         },
@@ -710,11 +710,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003359510000109367,
+            "duration": 0.00027980100000490893,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1976380959999915,
+            "duration": 0.20078574999999432,
             "outcome": "passed",
             "log": [
               {
@@ -731,20 +731,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663215.913807,
-                "msecs": 913,
-                "relativeCreated": 2149.754951,
-                "thread": 140522995927936,
+                "created": 1785668364.3162227,
+                "msecs": 316,
+                "relativeCreated": 1813.367263,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:35"
+                "asctime": "2026-08-02 10:59:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002090330000328322,
+            "duration": 0.0001972869999917748,
             "outcome": "passed"
           }
         },
@@ -764,11 +764,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033399700004110855,
+            "duration": 0.0002808030000096551,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1916927869999654,
+            "duration": 0.19888945099999944,
             "outcome": "passed",
             "log": [
               {
@@ -785,20 +785,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663216.1134882,
-                "msecs": 113,
-                "relativeCreated": 2349.436186,
-                "thread": 140522995927936,
+                "created": 1785668364.5188642,
+                "msecs": 518,
+                "relativeCreated": 2016.008766,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:36"
+                "asctime": "2026-08-02 10:59:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00024388900004623792,
+            "duration": 0.00020958599999687522,
             "outcome": "passed"
           }
         },
@@ -818,11 +818,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00029721900000367896,
+            "duration": 0.0003066609999962111,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19826140199995734,
+            "duration": 0.1983612060000013,
             "outcome": "passed",
             "log": [
               {
@@ -839,20 +839,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663216.3070948,
-                "msecs": 307,
-                "relativeCreated": 2543.042868,
-                "thread": 140522995927936,
+                "created": 1785668364.719691,
+                "msecs": 719,
+                "relativeCreated": 2216.835543,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:36"
+                "asctime": "2026-08-02 10:59:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.000198131999979978,
+            "duration": 0.00019364099999563678,
             "outcome": "passed"
           }
         },
@@ -872,11 +872,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00029437299997425725,
+            "duration": 0.0002772269999979926,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19879580299999589,
+            "duration": 0.19308382699999527,
             "outcome": "passed",
             "log": [
               {
@@ -893,20 +893,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663216.507369,
-                "msecs": 507,
-                "relativeCreated": 2743.31684,
-                "thread": 140522995927936,
+                "created": 1785668364.919924,
+                "msecs": 919,
+                "relativeCreated": 2417.068616,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:36"
+                "asctime": "2026-08-02 10:59:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002431770000157485,
+            "duration": 0.00023963999998954932,
             "outcome": "passed"
           }
         },
@@ -926,11 +926,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003183979999903386,
+            "duration": 0.0002826650000002928,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20539148000000296,
+            "duration": 0.1957956389999964,
             "outcome": "passed",
             "log": [
               {
@@ -947,20 +947,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663216.708218,
-                "msecs": 708,
-                "relativeCreated": 2944.16615,
-                "thread": 140522995927936,
+                "created": 1785668365.115052,
+                "msecs": 115,
+                "relativeCreated": 2612.19668,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:36"
+                "asctime": "2026-08-02 10:59:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002092839999932039,
+            "duration": 0.00025877999999579515,
             "outcome": "passed"
           }
         },
@@ -980,11 +980,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003109140000105981,
+            "duration": 0.0002954950000031431,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19540396999997256,
+            "duration": 0.20438028099999883,
             "outcome": "passed",
             "log": [
               {
@@ -1001,20 +1001,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663216.9155254,
-                "msecs": 915,
-                "relativeCreated": 3151.473288,
-                "thread": 140522995927936,
+                "created": 1785668365.3131685,
+                "msecs": 313,
+                "relativeCreated": 2810.313353,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:36"
+                "asctime": "2026-08-02 10:59:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002054859999702785,
+            "duration": 0.0001956850000084387,
             "outcome": "passed"
           }
         },
@@ -1034,11 +1034,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034975699998085474,
+            "duration": 0.00031201900000610294,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20033473199998753,
+            "duration": 0.2074705870000031,
             "outcome": "passed",
             "log": [
               {
@@ -1055,20 +1055,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663217.1128342,
-                "msecs": 112,
-                "relativeCreated": 3348.782346,
-                "thread": 140522995927936,
+                "created": 1785668365.5193853,
+                "msecs": 519,
+                "relativeCreated": 3016.529877,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:37"
+                "asctime": "2026-08-02 10:59:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002606190000165043,
+            "duration": 0.00020714200000782057,
             "outcome": "passed"
           }
         },
@@ -1088,11 +1088,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003161139999861007,
+            "duration": 0.0002947239999997464,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1956303570000273,
+            "duration": 0.19346654900000715,
             "outcome": "passed",
             "log": [
               {
@@ -1109,20 +1109,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663217.3151217,
-                "msecs": 315,
-                "relativeCreated": 3551.069576,
-                "thread": 140522995927936,
+                "created": 1785668365.7291644,
+                "msecs": 729,
+                "relativeCreated": 3226.308899,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:37"
+                "asctime": "2026-08-02 10:59:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00021407200000567173,
+            "duration": 0.00027548500000307286,
             "outcome": "passed"
           }
         },
@@ -1142,15 +1142,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.000339848000010079,
+            "duration": 0.00032192400000496946,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.4073298249999766,
+            "duration": 0.4072218959999958,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00025908600002821913,
+            "duration": 0.00019735700000467205,
             "outcome": "passed"
           }
         },
@@ -1170,11 +1170,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003330750000145599,
+            "duration": 0.00028032199999472596,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20233306499994796,
+            "duration": 0.20887868599999138,
             "outcome": "passed",
             "log": [
               {
@@ -1191,20 +1191,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663217.9218664,
-                "msecs": 921,
-                "relativeCreated": 4157.814466,
-                "thread": 140522995927936,
+                "created": 1785668366.333638,
+                "msecs": 333,
+                "relativeCreated": 3830.782661,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:37"
+                "asctime": "2026-08-02 10:59:26"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002233189999856222,
+            "duration": 0.0002607629999999972,
             "outcome": "passed"
           }
         },
@@ -1224,15 +1224,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002964160000260563,
+            "duration": 0.00030664100000876715,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19794754500003364,
+            "duration": 0.21286797499999466,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00022960100000091188,
+            "duration": 0.00021114799999111256,
             "outcome": "passed"
           }
         },
@@ -1252,15 +1252,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.00032414899999366753,
+            "duration": 0.00028930499999546555,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20072899799998822,
+            "duration": 0.20055621100000565,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00020827099996267862,
+            "duration": 0.0002204609999978402,
             "outcome": "passed"
           }
         },
@@ -1280,11 +1280,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033558000001221444,
+            "duration": 0.00035652600000446455,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.818411092999952,
+            "duration": 0.8212834450000059,
             "outcome": "failed",
             "crash": {
               "path": "/home/runner/work/openssl_fips/openssl_fips/tests/tests/test_04_mac_integrity.py",
@@ -1313,15 +1313,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663218.5283792,
-                "msecs": 528,
-                "relativeCreated": 4764.327149,
-                "thread": 140522995927936,
+                "created": 1785668366.9613965,
+                "msecs": 961,
+                "relativeCreated": 4458.541045,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:38"
+                "asctime": "2026-08-02 10:59:26"
               },
               {
                 "name": "conftest",
@@ -1337,15 +1337,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663218.7386541,
-                "msecs": 738,
-                "relativeCreated": 4974.602076,
-                "thread": 140522995927936,
+                "created": 1785668367.170274,
+                "msecs": 170,
+                "relativeCreated": 4667.4186,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:38"
+                "asctime": "2026-08-02 10:59:27"
               },
               {
                 "name": "conftest",
@@ -1361,15 +1361,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663218.927351,
-                "msecs": 927,
-                "relativeCreated": 5163.29914,
-                "thread": 140522995927936,
+                "created": 1785668367.371621,
+                "msecs": 371,
+                "relativeCreated": 4868.76548,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:38"
+                "asctime": "2026-08-02 10:59:27"
               },
               {
                 "name": "conftest",
@@ -1385,21 +1385,21 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663219.141775,
-                "msecs": 141,
-                "relativeCreated": 5377.722869,
-                "thread": 140522995927936,
+                "created": 1785668367.577786,
+                "msecs": 577,
+                "relativeCreated": 5074.930547,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:39"
+                "asctime": "2026-08-02 10:59:27"
               }
             ],
             "longrepr": "tests/tests/test_04_mac_integrity.py:39: in test_hmac_sha2_key_length_exhaustive\n    assert not failed_variants, f\"Compliance Failure: FIPS provider allowed weak 8-bit key for: {failed_variants}\"\nE   AssertionError: Compliance Failure: FIPS provider allowed weak 8-bit key for: ['SHA224', 'SHA256', 'SHA384', 'SHA512']\nE   assert not ['SHA224', 'SHA256', 'SHA384', 'SHA512']"
           },
           "teardown": {
-            "duration": 0.0002468740000267644,
+            "duration": 0.00021832899999196798,
             "outcome": "passed"
           }
         },
@@ -1419,11 +1419,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00031554299999925206,
+            "duration": 0.0003115890000060517,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1946063289999529,
+            "duration": 0.2020301839999945,
             "outcome": "failed",
             "crash": {
               "path": "/home/runner/work/openssl_fips/openssl_fips/tests/tests/test_04_mac_integrity.py",
@@ -1452,21 +1452,21 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663219.3691413,
-                "msecs": 369,
-                "relativeCreated": 5605.089322,
-                "thread": 140522995927936,
+                "created": 1785668367.8060834,
+                "msecs": 806,
+                "relativeCreated": 5303.227936,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:39"
+                "asctime": "2026-08-02 10:59:27"
               }
             ],
             "longrepr": "tests/tests/test_04_mac_integrity.py:60: in test_hmac_112bit_security_boundary\n    assert result_104.returncode != 0, \"Compliance Failure: System accepted 104-bit key under FIPS query.\"\nE   AssertionError: Compliance Failure: System accepted 104-bit key under FIPS query.\nE   assert 0 != 0\nE    +  where 0 = CleanResult(returncode=0, stdout='AF310B4D5EAE49576A38C421DC3B8483E810491E0988BE623AA25C1CE7A91631\\n', stderr='').returncode"
           },
           "teardown": {
-            "duration": 0.0002263750000111031,
+            "duration": 0.0002112880000026962,
             "outcome": "passed"
           }
         },
@@ -1486,11 +1486,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00029644699998243595,
+            "duration": 0.0003186799999923551,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19646863500003064,
+            "duration": 0.2040429340000003,
             "outcome": "passed",
             "log": [
               {
@@ -1507,20 +1507,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663219.5700073,
-                "msecs": 570,
-                "relativeCreated": 5805.955299,
-                "thread": 140522995927936,
+                "created": 1785668368.0143757,
+                "msecs": 14,
+                "relativeCreated": 5511.520225,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:39"
+                "asctime": "2026-08-02 10:59:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002155450000032033,
+            "duration": 0.00019654599999796574,
             "outcome": "passed"
           }
         },
@@ -1540,11 +1540,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003144709999673978,
+            "duration": 0.00036182400000939197,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19068164200001547,
+            "duration": 0.20582482499999344,
             "outcome": "passed",
             "log": [
               {
@@ -1561,20 +1561,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663219.768503,
-                "msecs": 768,
-                "relativeCreated": 6004.451001,
-                "thread": 140522995927936,
+                "created": 1785668368.2203848,
+                "msecs": 220,
+                "relativeCreated": 5717.529378,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:39"
+                "asctime": "2026-08-02 10:59:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002254629999924873,
+            "duration": 0.00020785300000625284,
             "outcome": "passed"
           }
         },
@@ -1594,11 +1594,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00030688600003259126,
+            "duration": 0.00032584100000576655,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.4007525659999942,
+            "duration": 0.40854383500000324,
             "outcome": "passed",
             "log": [
               {
@@ -1615,15 +1615,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663219.961041,
-                "msecs": 961,
-                "relativeCreated": 6196.988809,
-                "thread": 140522995927936,
+                "created": 1785668368.4282255,
+                "msecs": 428,
+                "relativeCreated": 5925.370227,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:39"
+                "asctime": "2026-08-02 10:59:28"
               },
               {
                 "name": "conftest",
@@ -1639,20 +1639,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663220.1586988,
-                "msecs": 158,
-                "relativeCreated": 6394.646814,
-                "thread": 140522995927936,
+                "created": 1785668368.6351776,
+                "msecs": 635,
+                "relativeCreated": 6132.322319,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:40"
+                "asctime": "2026-08-02 10:59:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019513699999151868,
+            "duration": 0.00021325099999103259,
             "outcome": "passed"
           }
         },
@@ -1672,11 +1672,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003522309999652862,
+            "duration": 0.0003092260000130409,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1946705290000068,
+            "duration": 0.19485438399999566,
             "outcome": "passed",
             "log": [
               {
@@ -1693,20 +1693,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663220.3638437,
-                "msecs": 363,
-                "relativeCreated": 6599.791516,
-                "thread": 140522995927936,
+                "created": 1785668368.838752,
+                "msecs": 838,
+                "relativeCreated": 6335.896556,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:40"
+                "asctime": "2026-08-02 10:59:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00024438899998813213,
+            "duration": 0.0002788899999899286,
             "outcome": "passed"
           }
         },
@@ -1726,11 +1726,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002837930000509914,
+            "duration": 0.00029727700000137247,
             "outcome": "passed"
           },
           "call": {
-            "duration": 1.7363834309999788,
+            "duration": 1.790821534999992,
             "outcome": "passed",
             "log": [
               {
@@ -1747,20 +1747,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663220.5605814,
-                "msecs": 560,
-                "relativeCreated": 6796.529358,
-                "thread": 140522995927936,
+                "created": 1785668369.0356357,
+                "msecs": 35,
+                "relativeCreated": 6532.780254,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:40"
+                "asctime": "2026-08-02 10:59:29"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0001977809999971214,
+            "duration": 0.00019421299998612085,
             "outcome": "passed"
           }
         },
@@ -1780,11 +1780,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003516809999837278,
+            "duration": 0.00028631099999643084,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2242281029999731,
+            "duration": 0.2480598749999956,
             "outcome": "passed",
             "log": [
               {
@@ -1801,20 +1801,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663222.298933,
-                "msecs": 298,
-                "relativeCreated": 8534.881056,
-                "thread": 140522995927936,
+                "created": 1785668370.828558,
+                "msecs": 828,
+                "relativeCreated": 8325.702782,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:42"
+                "asctime": "2026-08-02 10:59:30"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00023103399996671214,
+            "duration": 0.00022399699997777134,
             "outcome": "passed"
           }
         },
@@ -1834,11 +1834,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00030326900002819457,
+            "duration": 0.00028831399998807683,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20583493199995928,
+            "duration": 0.20226265299999113,
             "outcome": "passed",
             "log": [
               {
@@ -1855,20 +1855,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663222.5251286,
-                "msecs": 525,
-                "relativeCreated": 8761.076614,
-                "thread": 140522995927936,
+                "created": 1785668371.0784981,
+                "msecs": 78,
+                "relativeCreated": 8575.642657,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:42"
+                "asctime": "2026-08-02 10:59:31"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00024552100001073995,
+            "duration": 0.00021338100000889426,
             "outcome": "passed"
           }
         },
@@ -1888,15 +1888,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.00030790900001420596,
+            "duration": 0.000282075000001214,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.6257696829999873,
+            "duration": 0.6506888720000177,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0002169770000364224,
+            "duration": 0.00019587500000284308,
             "outcome": "passed"
           }
         },
@@ -1916,11 +1916,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003384949999940545,
+            "duration": 0.0003177789999995184,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.991529786000001,
+            "duration": 1.0003989650000165,
             "outcome": "failed",
             "crash": {
               "path": "/home/runner/work/openssl_fips/openssl_fips/tests/tests/test_05_asymmetric_and_pqc.py",
@@ -1949,15 +1949,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663223.3606887,
-                "msecs": 360,
-                "relativeCreated": 9596.636548,
-                "thread": 140522995927936,
+                "created": 1785668371.9352903,
+                "msecs": 935,
+                "relativeCreated": 9432.434993,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:43"
+                "asctime": "2026-08-02 10:59:31"
               },
               {
                 "name": "conftest",
@@ -1973,15 +1973,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663223.5605657,
-                "msecs": 560,
-                "relativeCreated": 9796.51374,
-                "thread": 140522995927936,
+                "created": 1785668372.139452,
+                "msecs": 139,
+                "relativeCreated": 9636.59645,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:43"
+                "asctime": "2026-08-02 10:59:32"
               },
               {
                 "name": "conftest",
@@ -1997,15 +1997,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663223.7598426,
-                "msecs": 759,
-                "relativeCreated": 9995.790446,
-                "thread": 140522995927936,
+                "created": 1785668372.339348,
+                "msecs": 339,
+                "relativeCreated": 9836.492521,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:43"
+                "asctime": "2026-08-02 10:59:32"
               },
               {
                 "name": "conftest",
@@ -2021,15 +2021,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663223.9569154,
-                "msecs": 956,
-                "relativeCreated": 10192.86336,
-                "thread": 140522995927936,
+                "created": 1785668372.5346608,
+                "msecs": 534,
+                "relativeCreated": 10031.805615,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:43"
+                "asctime": "2026-08-02 10:59:32"
               },
               {
                 "name": "conftest",
@@ -2045,21 +2045,21 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663224.151244,
-                "msecs": 151,
-                "relativeCreated": 10387.191961,
-                "thread": 140522995927936,
+                "created": 1785668372.734943,
+                "msecs": 734,
+                "relativeCreated": 10232.087677,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:44"
+                "asctime": "2026-08-02 10:59:32"
               }
             ],
             "longrepr": "tests/tests/test_05_asymmetric_and_pqc.py:227: in test_strict_block_legacy_curves_and_algos\n    assert not failed_blocks, \\\nE   AssertionError: Security Policy Violation: The following algorithms were PERMITTED in FIPS mode: ['X25519']. Check Debug Logs.\nE   assert not ['X25519']"
           },
           "teardown": {
-            "duration": 0.00020424299998467177,
+            "duration": 0.00020016100000930237,
             "outcome": "passed"
           }
         },
@@ -2079,11 +2079,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034344499999861,
+            "duration": 0.00027590599998461585,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.39294394400002375,
+            "duration": 0.41195277799999985,
             "outcome": "passed",
             "log": [
               {
@@ -2100,15 +2100,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663224.3618462,
-                "msecs": 361,
-                "relativeCreated": 10597.794267,
-                "thread": 140522995927936,
+                "created": 1785668372.9449804,
+                "msecs": 944,
+                "relativeCreated": 10442.125103,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:44"
+                "asctime": "2026-08-02 10:59:32"
               },
               {
                 "name": "conftest",
@@ -2124,20 +2124,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663224.5592082,
-                "msecs": 559,
-                "relativeCreated": 10795.156102,
-                "thread": 140522995927936,
+                "created": 1785668373.1510906,
+                "msecs": 151,
+                "relativeCreated": 10648.235277,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:44"
+                "asctime": "2026-08-02 10:59:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020592699996768715,
+            "duration": 0.0001978170000143109,
             "outcome": "passed"
           }
         },
@@ -2157,11 +2157,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003482239999925696,
+            "duration": 0.00027559499997664716,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1941193279999993,
+            "duration": 0.1982837089999805,
             "outcome": "passed",
             "log": [
               {
@@ -2178,20 +2178,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663224.756782,
-                "msecs": 756,
-                "relativeCreated": 10992.730002,
-                "thread": 140522995927936,
+                "created": 1785668373.3587687,
+                "msecs": 358,
+                "relativeCreated": 10855.913394,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:44"
+                "asctime": "2026-08-02 10:59:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020736999999826367,
+            "duration": 0.00019924000000060005,
             "outcome": "passed"
           }
         },
@@ -2211,15 +2211,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.00035686100000020815,
+            "duration": 0.0002725209999994149,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.7893232910000165,
+            "duration": 0.8125214670000105,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00021886100000756414,
+            "duration": 0.00019112800001153119,
             "outcome": "passed"
           }
         },
@@ -2239,11 +2239,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00032303699998692537,
+            "duration": 0.000319421000000375,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.21399989299999334,
+            "duration": 0.19469913399998973,
             "outcome": "passed",
             "log": [
               {
@@ -2260,20 +2260,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663225.7439194,
-                "msecs": 743,
-                "relativeCreated": 11979.86733,
-                "thread": 140522995927936,
+                "created": 1785668374.3732302,
+                "msecs": 373,
+                "relativeCreated": 11870.375003,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:45"
+                "asctime": "2026-08-02 10:59:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020314200003213045,
+            "duration": 0.00020744200000422097,
             "outcome": "passed"
           }
         },
@@ -2293,11 +2293,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034180200003675054,
+            "duration": 0.00028364700000338416,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.21901365499996928,
+            "duration": 0.20281415799999536,
             "outcome": "passed",
             "log": [
               {
@@ -2314,20 +2314,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663225.9599333,
-                "msecs": 959,
-                "relativeCreated": 12195.881175,
-                "thread": 140522995927936,
+                "created": 1785668374.5699341,
+                "msecs": 569,
+                "relativeCreated": 12067.078684,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:45"
+                "asctime": "2026-08-02 10:59:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019924399998672015,
+            "duration": 0.0002067810000028203,
             "outcome": "passed"
           }
         },
@@ -2347,15 +2347,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002944530000377199,
+            "duration": 0.00026313600000094084,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.014474917000029563,
+            "duration": 0.013839590999992879,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00016084200001387217,
+            "duration": 0.00017367199998830074,
             "outcome": "passed"
           }
         },
@@ -2375,11 +2375,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00027165000000195505,
+            "duration": 0.00028892499997823506,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19574339399997598,
+            "duration": 0.20955188900001076,
             "outcome": "passed",
             "log": [
               {
@@ -2396,20 +2396,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663226.1971054,
-                "msecs": 197,
-                "relativeCreated": 12433.053446,
-                "thread": 140522995927936,
+                "created": 1785668374.7900543,
+                "msecs": 790,
+                "relativeCreated": 12287.199071,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:46"
+                "asctime": "2026-08-02 10:59:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018645000000105938,
+            "duration": 0.0002357650000135436,
             "outcome": "passed"
           }
         },
@@ -2429,11 +2429,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00032316700003320875,
+            "duration": 0.00030031200000735225,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.18807367099998373,
+            "duration": 0.2064603770000133,
             "outcome": "passed",
             "log": [
               {
@@ -2450,20 +2450,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663226.3947432,
-                "msecs": 394,
-                "relativeCreated": 12630.691158,
-                "thread": 140522995927936,
+                "created": 1785668375.0015023,
+                "msecs": 1,
+                "relativeCreated": 12498.646934,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:46"
+                "asctime": "2026-08-02 10:59:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0001944750000006934,
+            "duration": 0.00025235000001089247,
             "outcome": "passed"
           }
         },
@@ -2483,11 +2483,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034462700000403856,
+            "duration": 0.00027594499999850086,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19246282699998574,
+            "duration": 0.19446472100000278,
             "outcome": "passed",
             "log": [
               {
@@ -2504,20 +2504,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663226.5847907,
-                "msecs": 584,
-                "relativeCreated": 12820.738706,
-                "thread": 140522995927936,
+                "created": 1785668375.2100747,
+                "msecs": 210,
+                "relativeCreated": 12707.21926,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:46"
+                "asctime": "2026-08-02 10:59:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019769099998256934,
+            "duration": 0.00019653499998639745,
             "outcome": "passed"
           }
         },
@@ -2537,11 +2537,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.000305464000007305,
+            "duration": 0.00032949600000620194,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.23646383200002674,
+            "duration": 0.22009768300000587,
             "outcome": "passed",
             "log": [
               {
@@ -2558,20 +2558,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663226.7792141,
-                "msecs": 779,
-                "relativeCreated": 13015.161965,
-                "thread": 140522995927936,
+                "created": 1785668375.4063687,
+                "msecs": 406,
+                "relativeCreated": 12903.513525,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:46"
+                "asctime": "2026-08-02 10:59:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002045350000230428,
+            "duration": 0.00020770200001152261,
             "outcome": "passed"
           }
         },
@@ -2591,11 +2591,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00037989400004789786,
+            "duration": 0.0003161460000171701,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2607730269999706,
+            "duration": 0.2273591419999832,
             "outcome": "passed",
             "log": [
               {
@@ -2612,20 +2612,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663227.017706,
-                "msecs": 17,
-                "relativeCreated": 13253.653896,
-                "thread": 140522995927936,
+                "created": 1785668375.628348,
+                "msecs": 628,
+                "relativeCreated": 13125.492709,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:47"
+                "asctime": "2026-08-02 10:59:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00024481999997760795,
+            "duration": 0.00022262500002057095,
             "outcome": "passed"
           }
         },
@@ -2645,11 +2645,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003537239999786834,
+            "duration": 0.00029601500000353553,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.21430295800001886,
+            "duration": 0.2156123019999825,
             "outcome": "passed",
             "log": [
               {
@@ -2666,20 +2666,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663227.2809231,
-                "msecs": 280,
-                "relativeCreated": 13516.871003,
-                "thread": 140522995927936,
+                "created": 1785668375.857867,
+                "msecs": 857,
+                "relativeCreated": 13355.011623,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:47"
+                "asctime": "2026-08-02 10:59:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019371399997680783,
+            "duration": 0.00020223499998905936,
             "outcome": "passed"
           }
         },
@@ -2699,11 +2699,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002748759999917638,
+            "duration": 0.000348164000001816,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.25358815199996343,
+            "duration": 0.23175491899999656,
             "outcome": "passed",
             "log": [
               {
@@ -2720,20 +2720,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663227.4970746,
-                "msecs": 497,
-                "relativeCreated": 13733.022664,
-                "thread": 140522995927936,
+                "created": 1785668376.0754309,
+                "msecs": 75,
+                "relativeCreated": 13572.575622,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:47"
+                "asctime": "2026-08-02 10:59:36"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018978600002128587,
+            "duration": 0.0001964459999896917,
             "outcome": "passed"
           }
         },
@@ -2753,15 +2753,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002715399999715373,
+            "duration": 0.0002996910000092612,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.38793813299997737,
+            "duration": 0.38005180900000823,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0002352019999989352,
+            "duration": 0.0001950439999802711,
             "outcome": "passed"
           }
         },
@@ -2781,11 +2781,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.000281408000034844,
+            "duration": 0.000297126999981856,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.25522149099998614,
+            "duration": 0.2174922810000055,
             "outcome": "passed",
             "log": [
               {
@@ -2802,20 +2802,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663228.1423845,
-                "msecs": 142,
-                "relativeCreated": 14378.332725,
-                "thread": 140522995927936,
+                "created": 1785668376.6911762,
+                "msecs": 691,
+                "relativeCreated": 14188.320969,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:48"
+                "asctime": "2026-08-02 10:59:36"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018193199997540432,
+            "duration": 0.00022353599999291873,
             "outcome": "passed"
           }
         },
@@ -2835,11 +2835,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002808070000241969,
+            "duration": 0.00029205000001297776,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19148068999999168,
+            "duration": 0.20121048400000063,
             "outcome": "passed",
             "log": [
               {
@@ -2856,20 +2856,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663228.3994594,
-                "msecs": 399,
-                "relativeCreated": 14635.407276,
-                "thread": 140522995927936,
+                "created": 1785668376.9105487,
+                "msecs": 910,
+                "relativeCreated": 14407.69342,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:48"
+                "asctime": "2026-08-02 10:59:36"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020450400000981972,
+            "duration": 0.00020487899999466208,
             "outcome": "passed"
           }
         },
@@ -2889,11 +2889,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034071999999696345,
+            "duration": 0.0003653199999860135,
             "outcome": "passed"
           },
           "call": {
-            "duration": 15.229304775999992,
+            "duration": 15.225790523,
             "outcome": "passed",
             "log": [
               {
@@ -2910,20 +2910,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663228.5928957,
-                "msecs": 592,
-                "relativeCreated": 14828.84378,
-                "thread": 140522995927936,
+                "created": 1785668377.1138268,
+                "msecs": 113,
+                "relativeCreated": 14610.971497,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:48"
+                "asctime": "2026-08-02 10:59:37"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019221100001232116,
+            "duration": 0.000266361000001325,
             "outcome": "passed"
           }
         },
@@ -2943,11 +2943,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00028612700009489345,
+            "duration": 0.00028532900000755035,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.31977600400000483,
+            "duration": 0.3927798259999804,
             "outcome": "passed",
             "log": [
               {
@@ -2964,20 +2964,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663243.8240836,
-                "msecs": 824,
-                "relativeCreated": 30060.031472,
-                "thread": 140522995927936,
+                "created": 1785668392.34155,
+                "msecs": 341,
+                "relativeCreated": 29838.694839,
+                "thread": 140145095682944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 8977,
+                "process": 9065,
                 "taskName": null,
-                "asctime": "2026-08-02 09:34:03"
+                "asctime": "2026-08-02 10:59:52"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019522600007348956,
+            "duration": 0.0002451189999987946,
             "outcome": "passed"
           }
         },
@@ -2997,23 +2997,23 @@
             ""
           ],
           "setup": {
-            "duration": 0.00032868699997834483,
+            "duration": 0.0003416239999864956,
             "outcome": "passed"
           },
           "call": {
-            "duration": 30.46008494,
+            "duration": 30.45577322699998,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0008643129999654775,
+            "duration": 0.0009495100000265211,
             "outcome": "passed"
           }
         }
       ]
     },
     "standard": {
-      "created": 1785663213.2296743,
-      "duration": 60.91048240661621,
+      "created": 1785668361.9491055,
+      "duration": 60.533461570739746,
       "exitcode": 1,
       "root": "/home/runner/work/openssl_fips/openssl_fips/tests",
       "environment": {},
@@ -3478,15 +3478,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0007628129999943667,
+            "duration": 0.0007461089999978299,
             "outcome": "passed"
           },
           "call": {
-            "duration": 2.1866129129999763,
+            "duration": 2.185875952999993,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00022604499997669336,
+            "duration": 0.00023941999999976815,
             "outcome": "passed"
           }
         },
@@ -3506,11 +3506,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00043409500000279877,
+            "duration": 0.00044942499999933716,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.27225237499999366,
+            "duration": 0.2679631769999986,
             "outcome": "passed",
             "log": [
               {
@@ -3527,20 +3527,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663154.6045842,
-                "msecs": 604,
-                "relativeCreated": 2714.60434,
-                "thread": 140172513581952,
+                "created": 1785668303.6970427,
+                "msecs": 697,
+                "relativeCreated": 2710.581872,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:34"
+                "asctime": "2026-08-02 10:58:23"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020412399999258923,
+            "duration": 0.000288342999994029,
             "outcome": "passed"
           }
         },
@@ -3560,11 +3560,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00032482000000300104,
+            "duration": 0.0003017539999987662,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2032067270000084,
+            "duration": 0.20586062900000002,
             "outcome": "passed",
             "log": [
               {
@@ -3581,20 +3581,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663154.8787494,
-                "msecs": 878,
-                "relativeCreated": 2988.769567,
-                "thread": 140172513581952,
+                "created": 1785668303.9671912,
+                "msecs": 967,
+                "relativeCreated": 2980.730282,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:34"
+                "asctime": "2026-08-02 10:58:23"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019759099996008445,
+            "duration": 0.00020630000000210202,
             "outcome": "passed"
           }
         },
@@ -3614,11 +3614,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033738299998731236,
+            "duration": 0.0003091849999989904,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19748537899999974,
+            "duration": 0.21227575699999335,
             "outcome": "passed",
             "log": [
               {
@@ -3635,20 +3635,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663155.0839145,
-                "msecs": 83,
-                "relativeCreated": 3193.934511,
-                "thread": 140172513581952,
+                "created": 1785668304.1749845,
+                "msecs": 174,
+                "relativeCreated": 3188.523474,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:35"
+                "asctime": "2026-08-02 10:58:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019452499998351414,
+            "duration": 0.00019696600000429498,
             "outcome": "passed"
           }
         },
@@ -3668,11 +3668,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002965769999718759,
+            "duration": 0.00032750199999753704,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20979348200000913,
+            "duration": 0.19864416600000112,
             "outcome": "passed",
             "log": [
               {
@@ -3689,20 +3689,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663155.2833562,
-                "msecs": 283,
-                "relativeCreated": 3393.376114,
-                "thread": 140172513581952,
+                "created": 1785668304.389345,
+                "msecs": 389,
+                "relativeCreated": 3402.884003,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:35"
+                "asctime": "2026-08-02 10:58:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0003557880000357727,
+            "duration": 0.0002109559999965427,
             "outcome": "passed"
           }
         },
@@ -3722,11 +3722,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033244500002638233,
+            "duration": 0.0003326089999973192,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2025536749999901,
+            "duration": 0.2102833030000042,
             "outcome": "passed",
             "log": [
               {
@@ -3743,20 +3743,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663155.495266,
-                "msecs": 495,
-                "relativeCreated": 3605.286031,
-                "thread": 140172513581952,
+                "created": 1785668304.5900743,
+                "msecs": 590,
+                "relativeCreated": 3603.613342,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:35"
+                "asctime": "2026-08-02 10:58:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020814100003008207,
+            "duration": 0.00020063099999845235,
             "outcome": "passed"
           }
         },
@@ -3776,11 +3776,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00035059900000078414,
+            "duration": 0.00033036600000002636,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20915465100000574,
+            "duration": 0.2015466569999944,
             "outcome": "passed",
             "log": [
               {
@@ -3797,20 +3797,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663155.6997564,
-                "msecs": 699,
-                "relativeCreated": 3809.776464,
-                "thread": 140172513581952,
+                "created": 1785668304.8022914,
+                "msecs": 802,
+                "relativeCreated": 3815.830631,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:35"
+                "asctime": "2026-08-02 10:58:24"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020866200003410995,
+            "duration": 0.00019843799999819112,
             "outcome": "passed"
           }
         },
@@ -3830,11 +3830,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033921699997563337,
+            "duration": 0.00029238899999484147,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20494957199997543,
+            "duration": 0.2104320920000049,
             "outcome": "passed",
             "log": [
               {
@@ -3851,20 +3851,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663155.9109013,
-                "msecs": 910,
-                "relativeCreated": 4020.921333,
-                "thread": 140172513581952,
+                "created": 1785668305.005733,
+                "msecs": 5,
+                "relativeCreated": 4019.272095,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:35"
+                "asctime": "2026-08-02 10:58:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019548699998495067,
+            "duration": 0.0001983979999948815,
             "outcome": "passed"
           }
         },
@@ -3884,11 +3884,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00030350999998063344,
+            "duration": 0.0002996600000031435,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20353133000003254,
+            "duration": 0.1955099009999941,
             "outcome": "passed",
             "log": [
               {
@@ -3905,20 +3905,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663156.1181293,
-                "msecs": 118,
-                "relativeCreated": 4228.149214,
-                "thread": 140172513581952,
+                "created": 1785668305.218074,
+                "msecs": 218,
+                "relativeCreated": 4231.613266,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:36"
+                "asctime": "2026-08-02 10:58:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002055859999927634,
+            "duration": 0.0002311570000017582,
             "outcome": "passed"
           }
         },
@@ -3938,11 +3938,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0004218720000039866,
+            "duration": 0.00037305000000031896,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1998931539999944,
+            "duration": 0.21286549799999932,
             "outcome": "passed",
             "log": [
               {
@@ -3959,20 +3959,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663156.3237865,
-                "msecs": 323,
-                "relativeCreated": 4433.806527,
-                "thread": 140172513581952,
+                "created": 1785668305.4155529,
+                "msecs": 415,
+                "relativeCreated": 4429.091995,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:36"
+                "asctime": "2026-08-02 10:58:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018950600002654028,
+            "duration": 0.00020707100000549872,
             "outcome": "passed"
           }
         },
@@ -3992,11 +3992,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033459799999491224,
+            "duration": 0.0003257600000026173,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1976682829999845,
+            "duration": 0.20288940000000366,
             "outcome": "passed",
             "log": [
               {
@@ -4013,20 +4013,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663156.525766,
-                "msecs": 525,
-                "relativeCreated": 4635.786059,
-                "thread": 140172513581952,
+                "created": 1785668305.630405,
+                "msecs": 630,
+                "relativeCreated": 4643.943918,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:36"
+                "asctime": "2026-08-02 10:58:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00026559799999859024,
+            "duration": 0.00021107700000300156,
             "outcome": "passed"
           }
         },
@@ -4046,11 +4046,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003197810000301615,
+            "duration": 0.0003466609999946968,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20231488500002115,
+            "duration": 0.20083609400000313,
             "outcome": "passed",
             "log": [
               {
@@ -4067,20 +4067,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663156.7257395,
-                "msecs": 725,
-                "relativeCreated": 4835.759501,
-                "thread": 140172513581952,
+                "created": 1785668305.8353896,
+                "msecs": 835,
+                "relativeCreated": 4848.928766,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:36"
+                "asctime": "2026-08-02 10:58:25"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00022878900000478097,
+            "duration": 0.00019445200000234308,
             "outcome": "passed"
           }
         },
@@ -4100,15 +4100,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003237880000028781,
+            "duration": 0.0002763049999998657,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.4014222729999801,
+            "duration": 0.40451519999999874,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0002041839999833428,
+            "duration": 0.00028734200000002375,
             "outcome": "passed"
           }
         },
@@ -4128,11 +4128,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002895240000384547,
+            "duration": 0.0003069420000016976,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20435519300002625,
+            "duration": 0.20590254600000435,
             "outcome": "passed",
             "log": [
               {
@@ -4149,20 +4149,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663157.3332338,
-                "msecs": 333,
-                "relativeCreated": 5443.254097,
-                "thread": 140172513581952,
+                "created": 1785668306.444507,
+                "msecs": 444,
+                "relativeCreated": 5458.045907,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:37"
+                "asctime": "2026-08-02 10:58:26"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020799100002477644,
+            "duration": 0.00020738199999925655,
             "outcome": "passed"
           }
         },
@@ -4182,15 +4182,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.00029208799998059476,
+            "duration": 0.0003157050000055506,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20732379200001105,
+            "duration": 0.2024470040000068,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00020501499994907135,
+            "duration": 0.00020545900000001893,
             "outcome": "passed"
           }
         },
@@ -4210,15 +4210,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.00028825100002904946,
+            "duration": 0.00029034599999988586,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20545511199998145,
+            "duration": 0.20015614300000095,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00024429799998415547,
+            "duration": 0.00027650600000583836,
             "outcome": "passed"
           }
         },
@@ -4238,11 +4238,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00037518400000635665,
+            "duration": 0.0003340220000040972,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.8163150029999997,
+            "duration": 0.8107940299999967,
             "outcome": "failed",
             "crash": {
               "path": "/home/runner/work/openssl_fips/openssl_fips/tests/tests/test_04_mac_integrity.py",
@@ -4271,15 +4271,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663157.9558506,
-                "msecs": 955,
-                "relativeCreated": 6065.870561,
-                "thread": 140172513581952,
+                "created": 1785668307.0584826,
+                "msecs": 58,
+                "relativeCreated": 6072.02184,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:37"
+                "asctime": "2026-08-02 10:58:27"
               },
               {
                 "name": "conftest",
@@ -4295,15 +4295,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663158.1627831,
-                "msecs": 162,
-                "relativeCreated": 6272.803419,
-                "thread": 140172513581952,
+                "created": 1785668307.2623534,
+                "msecs": 262,
+                "relativeCreated": 6275.892544,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:38"
+                "asctime": "2026-08-02 10:58:27"
               },
               {
                 "name": "conftest",
@@ -4319,15 +4319,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663158.3695524,
-                "msecs": 369,
-                "relativeCreated": 6479.572329,
-                "thread": 140172513581952,
+                "created": 1785668307.4747212,
+                "msecs": 474,
+                "relativeCreated": 6488.260264,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:38"
+                "asctime": "2026-08-02 10:58:27"
               },
               {
                 "name": "conftest",
@@ -4343,21 +4343,21 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663158.5681741,
-                "msecs": 568,
-                "relativeCreated": 6678.19422,
-                "thread": 140172513581952,
+                "created": 1785668307.6733365,
+                "msecs": 673,
+                "relativeCreated": 6686.875581,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:38"
+                "asctime": "2026-08-02 10:58:27"
               }
             ],
             "longrepr": "tests/tests/test_04_mac_integrity.py:39: in test_hmac_sha2_key_length_exhaustive\n    assert not failed_variants, f\"Compliance Failure: FIPS provider allowed weak 8-bit key for: {failed_variants}\"\nE   AssertionError: Compliance Failure: FIPS provider allowed weak 8-bit key for: ['SHA224', 'SHA256', 'SHA384', 'SHA512']\nE   assert not ['SHA224', 'SHA256', 'SHA384', 'SHA512']"
           },
           "teardown": {
-            "duration": 0.00019998499999474006,
+            "duration": 0.00020253499999967062,
             "outcome": "passed"
           }
         },
@@ -4377,11 +4377,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033358700000007957,
+            "duration": 0.0002907370000002629,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2006981090000295,
+            "duration": 0.19682194300000333,
             "outcome": "failed",
             "crash": {
               "path": "/home/runner/work/openssl_fips/openssl_fips/tests/tests/test_04_mac_integrity.py",
@@ -4410,21 +4410,21 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663158.7948802,
-                "msecs": 794,
-                "relativeCreated": 6904.900274,
-                "thread": 140172513581952,
+                "created": 1785668307.8928955,
+                "msecs": 892,
+                "relativeCreated": 6906.434656,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:38"
+                "asctime": "2026-08-02 10:58:27"
               }
             ],
             "longrepr": "tests/tests/test_04_mac_integrity.py:60: in test_hmac_112bit_security_boundary\n    assert result_104.returncode != 0, \"Compliance Failure: System accepted 104-bit key under FIPS query.\"\nE   AssertionError: Compliance Failure: System accepted 104-bit key under FIPS query.\nE   assert 0 != 0\nE    +  where 0 = CleanResult(returncode=0, stdout='AF310B4D5EAE49576A38C421DC3B8483E810491E0988BE623AA25C1CE7A91631\\n', stderr='').returncode"
           },
           "teardown": {
-            "duration": 0.00023561300002938879,
+            "duration": 0.00021574400000190508,
             "outcome": "passed"
           }
         },
@@ -4444,11 +4444,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003062149999664143,
+            "duration": 0.00032543900000803205,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20098482499997772,
+            "duration": 0.19764500399999463,
             "outcome": "passed",
             "log": [
               {
@@ -4465,20 +4465,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663159.0020323,
-                "msecs": 2,
-                "relativeCreated": 7112.052434,
-                "thread": 140172513581952,
+                "created": 1785668308.0962172,
+                "msecs": 96,
+                "relativeCreated": 7109.756305,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:39"
+                "asctime": "2026-08-02 10:58:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00023536200001217367,
+            "duration": 0.0002527390000039986,
             "outcome": "passed"
           }
         },
@@ -4498,11 +4498,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003345490000015161,
+            "duration": 0.00029338100000586564,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20474513900001057,
+            "duration": 0.2018256559999969,
             "outcome": "passed",
             "log": [
               {
@@ -4519,20 +4519,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663159.2049444,
-                "msecs": 204,
-                "relativeCreated": 7314.964389,
-                "thread": 140172513581952,
+                "created": 1785668308.295991,
+                "msecs": 295,
+                "relativeCreated": 7309.530128,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:39"
+                "asctime": "2026-08-02 10:58:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00021295000004784015,
+            "duration": 0.00020439700000451921,
             "outcome": "passed"
           }
         },
@@ -4552,11 +4552,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034349499998143074,
+            "duration": 0.0002896550000031084,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.3925297769999929,
+            "duration": 0.4103240270000015,
             "outcome": "passed",
             "log": [
               {
@@ -4573,15 +4573,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663159.4117548,
-                "msecs": 411,
-                "relativeCreated": 7521.774776,
-                "thread": 140172513581952,
+                "created": 1785668308.4997027,
+                "msecs": 499,
+                "relativeCreated": 7513.241798,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:39"
+                "asctime": "2026-08-02 10:58:28"
               },
               {
                 "name": "conftest",
@@ -4597,20 +4597,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663159.6065295,
-                "msecs": 606,
-                "relativeCreated": 7716.549651,
-                "thread": 140172513581952,
+                "created": 1785668308.7014022,
+                "msecs": 701,
+                "relativeCreated": 7714.941279,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:39"
+                "asctime": "2026-08-02 10:58:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002567319999684514,
+            "duration": 0.00020999599999527163,
             "outcome": "passed"
           }
         },
@@ -4630,11 +4630,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003916659999845251,
+            "duration": 0.00029807800000014595,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2005446570000231,
+            "duration": 0.19956433800000184,
             "outcome": "passed",
             "log": [
               {
@@ -4651,20 +4651,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663159.8068364,
-                "msecs": 806,
-                "relativeCreated": 7916.856616,
-                "thread": 140172513581952,
+                "created": 1785668308.9120884,
+                "msecs": 912,
+                "relativeCreated": 7925.627483,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:39"
+                "asctime": "2026-08-02 10:58:28"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0001901869999869632,
+            "duration": 0.000238297999999304,
             "outcome": "passed"
           }
         },
@@ -4684,11 +4684,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002908660000002783,
+            "duration": 0.0003090940000021192,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.7838415920000443,
+            "duration": 0.4658359340000118,
             "outcome": "passed",
             "log": [
               {
@@ -4705,20 +4705,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663160.009269,
-                "msecs": 9,
-                "relativeCreated": 8119.289089,
-                "thread": 140172513581952,
+                "created": 1785668309.1135104,
+                "msecs": 113,
+                "relativeCreated": 8127.049512,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:40"
+                "asctime": "2026-08-02 10:58:29"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002127699999618926,
+            "duration": 0.0001971669999960568,
             "outcome": "passed"
           }
         },
@@ -4738,11 +4738,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00029490399998621797,
+            "duration": 0.00032954699999265813,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2506781980000028,
+            "duration": 0.23439730200000497,
             "outcome": "passed",
             "log": [
               {
@@ -4759,20 +4759,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663160.795192,
-                "msecs": 795,
-                "relativeCreated": 8905.21202,
-                "thread": 140172513581952,
+                "created": 1785668309.5814347,
+                "msecs": 581,
+                "relativeCreated": 8594.973764,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:40"
+                "asctime": "2026-08-02 10:58:29"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0001998860000185232,
+            "duration": 0.00027364299999987907,
             "outcome": "passed"
           }
         },
@@ -4792,11 +4792,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003649650000170368,
+            "duration": 0.0003325119999999515,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.199184205999984,
+            "duration": 0.197385146000002,
             "outcome": "passed",
             "log": [
               {
@@ -4813,20 +4813,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663161.0478706,
-                "msecs": 47,
-                "relativeCreated": 9157.890685,
-                "thread": 140172513581952,
+                "created": 1785668309.8182192,
+                "msecs": 818,
+                "relativeCreated": 8831.758444,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:41"
+                "asctime": "2026-08-02 10:58:29"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002521839999758413,
+            "duration": 0.00023257099999796083,
             "outcome": "passed"
           }
         },
@@ -4846,15 +4846,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002929499999595464,
+            "duration": 0.0002911689999933742,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.7198708110000211,
+            "duration": 0.7135177059999904,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0002083310000102756,
+            "duration": 0.0001953539999988152,
             "outcome": "passed"
           }
         },
@@ -4874,11 +4874,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00034296399996947,
+            "duration": 0.0002833169999973961,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.9821718769999848,
+            "duration": 1.0009119479999953,
             "outcome": "failed",
             "crash": {
               "path": "/home/runner/work/openssl_fips/openssl_fips/tests/tests/test_05_asymmetric_and_pqc.py",
@@ -4907,15 +4907,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663161.9707758,
-                "msecs": 970,
-                "relativeCreated": 10080.795982,
-                "thread": 140172513581952,
+                "created": 1785668310.7327838,
+                "msecs": 732,
+                "relativeCreated": 9746.323025,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:41"
+                "asctime": "2026-08-02 10:58:30"
               },
               {
                 "name": "conftest",
@@ -4931,15 +4931,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663162.1679277,
-                "msecs": 167,
-                "relativeCreated": 10277.947968,
-                "thread": 140172513581952,
+                "created": 1785668310.9305453,
+                "msecs": 930,
+                "relativeCreated": 9944.084454,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:42"
+                "asctime": "2026-08-02 10:58:30"
               },
               {
                 "name": "conftest",
@@ -4955,15 +4955,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663162.3561585,
-                "msecs": 356,
-                "relativeCreated": 10466.178464,
-                "thread": 140172513581952,
+                "created": 1785668311.13127,
+                "msecs": 131,
+                "relativeCreated": 10144.809079,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:42"
+                "asctime": "2026-08-02 10:58:31"
               },
               {
                 "name": "conftest",
@@ -4979,15 +4979,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663162.550269,
-                "msecs": 550,
-                "relativeCreated": 10660.288891,
-                "thread": 140172513581952,
+                "created": 1785668311.3347747,
+                "msecs": 334,
+                "relativeCreated": 10348.313984,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:42"
+                "asctime": "2026-08-02 10:58:31"
               },
               {
                 "name": "conftest",
@@ -5003,21 +5003,21 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663162.7530024,
-                "msecs": 753,
-                "relativeCreated": 10863.02267,
-                "thread": 140172513581952,
+                "created": 1785668311.532932,
+                "msecs": 532,
+                "relativeCreated": 10546.471264,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:42"
+                "asctime": "2026-08-02 10:58:31"
               }
             ],
             "longrepr": "tests/tests/test_05_asymmetric_and_pqc.py:227: in test_strict_block_legacy_curves_and_algos\n    assert not failed_blocks, \\\nE   AssertionError: Security Policy Violation: The following algorithms were PERMITTED in FIPS mode: ['X25519']. Check Debug Logs.\nE   assert not ['X25519']"
           },
           "teardown": {
-            "duration": 0.00020468399998208042,
+            "duration": 0.00020814399999835587,
             "outcome": "passed"
           }
         },
@@ -5037,11 +5037,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002992819999576568,
+            "duration": 0.0002889160000023594,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.40293321199999355,
+            "duration": 0.41047800899998776,
             "outcome": "passed",
             "log": [
               {
@@ -5058,15 +5058,15 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663162.9625037,
-                "msecs": 962,
-                "relativeCreated": 11072.523796,
-                "thread": 140172513581952,
+                "created": 1785668311.742947,
+                "msecs": 742,
+                "relativeCreated": 10756.486258,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:42"
+                "asctime": "2026-08-02 10:58:31"
               },
               {
                 "name": "conftest",
@@ -5082,20 +5082,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663163.1628065,
-                "msecs": 162,
-                "relativeCreated": 11272.82653,
-                "thread": 140172513581952,
+                "created": 1785668311.9448588,
+                "msecs": 944,
+                "relativeCreated": 10958.397972,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:43"
+                "asctime": "2026-08-02 10:58:31"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020957300000645773,
+            "duration": 0.00019154899999307418,
             "outcome": "passed"
           }
         },
@@ -5115,11 +5115,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003079989999719146,
+            "duration": 0.00031443400000341626,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1925653049999596,
+            "duration": 0.19801307699999882,
             "outcome": "passed",
             "log": [
               {
@@ -5136,20 +5136,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663163.3675032,
-                "msecs": 367,
-                "relativeCreated": 11477.523119,
-                "thread": 140172513581952,
+                "created": 1785668312.15533,
+                "msecs": 155,
+                "relativeCreated": 11168.869039,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:43"
+                "asctime": "2026-08-02 10:58:32"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019220100000438833,
+            "duration": 0.00023798800000918163,
             "outcome": "passed"
           }
         },
@@ -5169,15 +5169,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003096410000011929,
+            "duration": 0.00029966099999967355,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.7982759390000069,
+            "duration": 0.8158694019999899,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00024006099999951402,
+            "duration": 0.00021020599999133083,
             "outcome": "passed"
           }
         },
@@ -5197,11 +5197,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00032629300000053263,
+            "duration": 0.0003792059999909725,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19576325000002726,
+            "duration": 0.19876101900000265,
             "outcome": "passed",
             "log": [
               {
@@ -5218,20 +5218,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663164.3620493,
-                "msecs": 362,
-                "relativeCreated": 12472.069443,
-                "thread": 140172513581952,
+                "created": 1785668313.173366,
+                "msecs": 173,
+                "relativeCreated": 12186.905054,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:44"
+                "asctime": "2026-08-02 10:58:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00021113600001854138,
+            "duration": 0.0002057800000017096,
             "outcome": "passed"
           }
         },
@@ -5251,11 +5251,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003603569999768297,
+            "duration": 0.00030212500000459386,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20216374099999257,
+            "duration": 0.20038412200000266,
             "outcome": "passed",
             "log": [
               {
@@ -5272,20 +5272,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663164.5598145,
-                "msecs": 559,
-                "relativeCreated": 12669.834573,
-                "thread": 140172513581952,
+                "created": 1785668313.374114,
+                "msecs": 374,
+                "relativeCreated": 12387.653168,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:44"
+                "asctime": "2026-08-02 10:58:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019292199999654258,
+            "duration": 0.00019830899999817575,
             "outcome": "passed"
           }
         },
@@ -5305,15 +5305,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003188890000274114,
+            "duration": 0.00036121499999808293,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.014921073999971668,
+            "duration": 0.014242549000002214,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00018739199998663025,
+            "duration": 0.00019376199999499022,
             "outcome": "passed"
           }
         },
@@ -5333,11 +5333,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00027544699997861244,
+            "duration": 0.00032553999999151984,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.18976325300002372,
+            "duration": 0.19862760400000923,
             "outcome": "passed",
             "log": [
               {
@@ -5354,20 +5354,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663164.7804916,
-                "msecs": 780,
-                "relativeCreated": 12890.511483,
-                "thread": 140172513581952,
+                "created": 1785668313.592357,
+                "msecs": 592,
+                "relativeCreated": 12605.895859,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:44"
+                "asctime": "2026-08-02 10:58:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0002237709999803883,
+            "duration": 0.00020417800000416264,
             "outcome": "passed"
           }
         },
@@ -5387,11 +5387,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00031110399999079164,
+            "duration": 0.0002994509999894035,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.20379449300003216,
+            "duration": 0.204017898999993,
             "outcome": "passed",
             "log": [
               {
@@ -5408,20 +5408,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663164.972325,
-                "msecs": 972,
-                "relativeCreated": 13082.345186,
-                "thread": 140172513581952,
+                "created": 1785668313.7930834,
+                "msecs": 793,
+                "relativeCreated": 12806.622587,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:44"
+                "asctime": "2026-08-02 10:58:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00022491199996466094,
+            "duration": 0.0002050989999986541,
             "outcome": "passed"
           }
         },
@@ -5441,11 +5441,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00028201999998600513,
+            "duration": 0.00032716299999435705,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.19323377199998504,
+            "duration": 0.20044435699999497,
             "outcome": "passed",
             "log": [
               {
@@ -5462,20 +5462,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663165.1780484,
-                "msecs": 178,
-                "relativeCreated": 13288.068391,
-                "thread": 140172513581952,
+                "created": 1785668313.999221,
+                "msecs": 999,
+                "relativeCreated": 13012.759991,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:45"
+                "asctime": "2026-08-02 10:58:33"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020940299998528644,
+            "duration": 0.00023821899999632024,
             "outcome": "passed"
           }
         },
@@ -5495,11 +5495,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003096820000223488,
+            "duration": 0.0002945039999957544,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.23155564299997877,
+            "duration": 0.2254571809999959,
             "outcome": "passed",
             "log": [
               {
@@ -5516,20 +5516,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663165.3732953,
-                "msecs": 373,
-                "relativeCreated": 13483.315434,
-                "thread": 140172513581952,
+                "created": 1785668314.2015772,
+                "msecs": 201,
+                "relativeCreated": 13215.11628,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:45"
+                "asctime": "2026-08-02 10:58:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018282299998872986,
+            "duration": 0.00021522400000151265,
             "outcome": "passed"
           }
         },
@@ -5549,11 +5549,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003330749999577165,
+            "duration": 0.00031438400000638467,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.2725406199999725,
+            "duration": 0.24790903900000671,
             "outcome": "passed",
             "log": [
               {
@@ -5570,20 +5570,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663165.6067364,
-                "msecs": 606,
-                "relativeCreated": 13716.756418,
-                "thread": 140172513581952,
+                "created": 1785668314.429089,
+                "msecs": 429,
+                "relativeCreated": 13442.628179,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:45"
+                "asctime": "2026-08-02 10:58:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00019118900002013106,
+            "duration": 0.00021809800000482937,
             "outcome": "passed"
           }
         },
@@ -5603,11 +5603,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003263529999912862,
+            "duration": 0.0003005439999981263,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.21246565000001283,
+            "duration": 0.21267882400000815,
             "outcome": "passed",
             "log": [
               {
@@ -5624,20 +5624,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663165.8812528,
-                "msecs": 881,
-                "relativeCreated": 13991.272859,
-                "thread": 140172513581952,
+                "created": 1785668314.6789463,
+                "msecs": 678,
+                "relativeCreated": 13692.485465,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:45"
+                "asctime": "2026-08-02 10:58:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020476399998869965,
+            "duration": 0.00022490899999638714,
             "outcome": "passed"
           }
         },
@@ -5657,11 +5657,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00033315600001060375,
+            "duration": 0.000297899000003099,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.25035726500004785,
+            "duration": 0.23690685400001144,
             "outcome": "passed",
             "log": [
               {
@@ -5678,20 +5678,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663166.0956614,
-                "msecs": 95,
-                "relativeCreated": 14205.681508,
-                "thread": 140172513581952,
+                "created": 1785668314.893536,
+                "msecs": 893,
+                "relativeCreated": 13907.075219,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:46"
+                "asctime": "2026-08-02 10:58:34"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00026658100000531704,
+            "duration": 0.0001977780000004259,
             "outcome": "passed"
           }
         },
@@ -5711,15 +5711,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0003054729999689698,
+            "duration": 0.0003338329999991174,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.382927833999986,
+            "duration": 0.39190185299999314,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.00018245300003627563,
+            "duration": 0.00028054300000235344,
             "outcome": "passed"
           }
         },
@@ -5739,11 +5739,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00037064599996483594,
+            "duration": 0.00036233600000912247,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.25506429500001104,
+            "duration": 0.22108838600000524,
             "outcome": "passed",
             "log": [
               {
@@ -5760,20 +5760,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663166.732789,
-                "msecs": 732,
-                "relativeCreated": 14842.809145,
-                "thread": 140172513581952,
+                "created": 1785668315.526269,
+                "msecs": 526,
+                "relativeCreated": 14539.807952,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:46"
+                "asctime": "2026-08-02 10:58:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.0001845669999624988,
+            "duration": 0.00020374700000047596,
             "outcome": "passed"
           }
         },
@@ -5793,11 +5793,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.000341972999990503,
+            "duration": 0.0003609139999980471,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.1951011259999973,
+            "duration": 0.20855394699999863,
             "outcome": "passed",
             "log": [
               {
@@ -5814,20 +5814,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663166.9897926,
-                "msecs": 989,
-                "relativeCreated": 15099.812503,
-                "thread": 140172513581952,
+                "created": 1785668315.7493331,
+                "msecs": 749,
+                "relativeCreated": 14762.872396,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:46"
+                "asctime": "2026-08-02 10:58:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00021657600001390165,
+            "duration": 0.00022529000000304222,
             "outcome": "passed"
           }
         },
@@ -5847,11 +5847,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00036032600002045,
+            "duration": 0.0003188000000022839,
             "outcome": "passed"
           },
           "call": {
-            "duration": 15.232630970000002,
+            "duration": 15.22917314,
             "outcome": "passed",
             "log": [
               {
@@ -5868,20 +5868,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663167.1869705,
-                "msecs": 186,
-                "relativeCreated": 15296.990559,
-                "thread": 140172513581952,
+                "created": 1785668315.9600356,
+                "msecs": 960,
+                "relativeCreated": 14973.574641,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:32:47"
+                "asctime": "2026-08-02 10:58:35"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00020190000003594832,
+            "duration": 0.00019201899999643501,
             "outcome": "passed"
           }
         },
@@ -5901,11 +5901,11 @@
             ""
           ],
           "setup": {
-            "duration": 0.00030140600000549966,
+            "duration": 0.00029142900000067584,
             "outcome": "passed"
           },
           "call": {
-            "duration": 0.335841103000007,
+            "duration": 0.28867721100000665,
             "outcome": "passed",
             "log": [
               {
@@ -5922,20 +5922,20 @@
                 "stack_info": null,
                 "lineno": 40,
                 "funcName": "_executor",
-                "created": 1785663182.4215128,
-                "msecs": 421,
-                "relativeCreated": 30531.532999,
-                "thread": 140172513581952,
+                "created": 1785668331.1911201,
+                "msecs": 191,
+                "relativeCreated": 30204.659277,
+                "thread": 139814735874944,
                 "threadName": "MainThread",
                 "processName": "MainProcess",
-                "process": 3190,
+                "process": 3248,
                 "taskName": null,
-                "asctime": "2026-08-02 09:33:02"
+                "asctime": "2026-08-02 10:58:51"
               }
             ]
           },
           "teardown": {
-            "duration": 0.00018698099995617667,
+            "duration": 0.00022279499999910968,
             "outcome": "passed"
           }
         },
@@ -5955,15 +5955,15 @@
             ""
           ],
           "setup": {
-            "duration": 0.0002661700000317069,
+            "duration": 0.0002829860000019835,
             "outcome": "passed"
           },
           "call": {
-            "duration": 30.468677629000013,
+            "duration": 30.465697019000004,
             "outcome": "passed"
           },
           "teardown": {
-            "duration": 0.0008860639999852538,
+            "duration": 0.0009117019999962395,
             "outcome": "passed"
           }
         }
@@ -5993,8 +5993,8 @@
       },
       "total_counter": 0,
       "total_bom_resources": 0,
-      "start": "2026-08-02T09:32:12.746850055Z",
-      "end": "2026-08-02T09:32:21.921383367Z",
+      "start": "2026-08-02T10:58:05.61045325Z",
+      "end": "2026-08-02T10:58:17.909836704Z",
       "paths": [
         ".",
         "/app/bin/assets/queries"
@@ -6016,8 +6016,8 @@
           "Trivy": {
             "Version": "0.72.0"
           },
-          "ReportID": "019fc1d1-eb7a-7082-b7a3-d6754da0b687",
-          "CreatedAt": "2026-08-02T09:33:07.834035076Z",
+          "ReportID": "019fc220-7118-7ee4-a966-3ef06a110a07",
+          "CreatedAt": "2026-08-02T10:58:53.848977458Z",
           "ArtifactID": "sha256:ae3e69e450208e6802d8422314ea3050e9b3f3db73730895de5af5211ef23b2c",
           "ArtifactName": "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5",
           "ArtifactType": "container_image",
@@ -6043,7 +6043,7 @@
               "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5"
             ],
             "RepoDigests": [
-              "ghcr.io/taha2samy-3/wolfi-openssl-fips@sha256:689384281f5ec46ebaaef9c4503c600aa43874623396acf6d3807843fccdf913"
+              "ghcr.io/taha2samy-3/wolfi-openssl-fips@sha256:80da25b652c8e22656607802b1526d0a73fd142fcbbbf37474f4a567fdf6ebbe"
             ],
             "Reference": "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5",
             "ImageConfig": {
@@ -9352,8 +9352,8 @@
           "Trivy": {
             "Version": "0.72.0"
           },
-          "ReportID": "019fc1d2-03e1-73ed-9688-85c077bb8593",
-          "CreatedAt": "2026-08-02T09:33:14.081258826Z",
+          "ReportID": "019fc220-b9f0-7979-b459-ec884d464253",
+          "CreatedAt": "2026-08-02T10:59:12.496621961Z",
           "ArtifactID": "sha256:c87fd255d1702d11073f6461cdb0a77839666e7cc58945d9eed2daa5dbd352ea",
           "ArtifactName": "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5-distroless",
           "ArtifactType": "container_image",
@@ -9378,7 +9378,7 @@
               "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5-distroless"
             ],
             "RepoDigests": [
-              "ghcr.io/taha2samy-3/wolfi-openssl-fips@sha256:ee626e89616e293106bb29acbca35617b2958d3098d129e1345053b41a10c771"
+              "ghcr.io/taha2samy-3/wolfi-openssl-fips@sha256:82f734a74298035530777fb0a3bb15a24d180916ae94c33cf6e444360cd822e8"
             ],
             "Reference": "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5-distroless",
             "ImageConfig": {
@@ -11883,8 +11883,8 @@
           "Trivy": {
             "Version": "0.72.0"
           },
-          "ReportID": "019fc1d1-d43e-759e-928f-f9e8d98b60ff",
-          "CreatedAt": "2026-08-02T09:33:01.88637092Z",
+          "ReportID": "019fc220-b6b3-708f-8b37-e199bd758ac8",
+          "CreatedAt": "2026-08-02T10:59:11.667038699Z",
           "ArtifactID": "sha256:a69e898eca505a5eee13bf8c6849d8507be634ce076407188ccc3a53e8a622bd",
           "ArtifactName": "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5-dev",
           "ArtifactType": "container_image",
@@ -11905,7 +11905,7 @@
               "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5-dev"
             ],
             "RepoDigests": [
-              "ghcr.io/taha2samy-3/wolfi-openssl-fips@sha256:25146d09c4c8dbf2807503ef1ffc1ef827ba8d9b92f7caf5270a6ba7d9a50883"
+              "ghcr.io/taha2samy-3/wolfi-openssl-fips@sha256:ce8d38acc9abd878c07419ccd2ccedc4613ee99af7ade8df1c51dcf2e342b7dd"
             ],
             "Reference": "ghcr.io/taha2samy-3/wolfi-openssl-fips:3.5.5-dev",
             "ImageConfig": {
@@ -21141,8 +21141,8 @@
     },
     "total_counter": 0,
     "total_bom_resources": 0,
-    "start": "2026-08-02T09:32:12.746850055Z",
-    "end": "2026-08-02T09:32:21.921383367Z",
+    "start": "2026-08-02T10:58:05.61045325Z",
+    "end": "2026-08-02T10:58:17.909836704Z",
     "paths": [
       ".",
       "/app/bin/assets/queries"
@@ -21168,138 +21168,138 @@
     "metrics": {
       "AES-256-GCM": {
         "fips": [
-          178152.86,
-          595934.4,
-          2001285.12,
-          4459489.28,
-          7080435.71,
-          7322075.14
+          178205.54,
+          630122.88,
+          2023343.87,
+          4470122.5,
+          7057784.83,
+          7386693.63
         ],
         "debian": [
-          88422.85,
-          329439.23,
-          1171798.78,
-          3154589.7,
-          6645473.28,
-          6974341.12
+          85825.92,
+          310718.34,
+          1155572.22,
+          3125248,
+          6651731.97,
+          7248707.58
         ],
         "alpine": [
-          124859.39,
-          450728.13,
-          1521726.98,
-          3761095.68,
-          6923157.5,
-          7375011.84
+          124670.64,
+          453982.85,
+          1538155.78,
+          3771531.26,
+          6825238.53,
+          7327170.56
         ],
         "ubuntu": [
-          158170.02,
-          554567.42,
-          1830663.17,
-          4117874.69,
-          7066034.18,
-          7483686.91
+          158374.74,
+          552882.3,
+          1808340.74,
+          4234372.1,
+          7086964.74,
+          7474249.73
         ]
       },
       "sha256": {
         "fips": [
-          270535.82,
-          934666.18,
-          2573256.19,
-          4491328.51,
-          5599674.37,
-          5858148.35
+          273165.25,
+          944297.34,
+          2470706.18,
+          4495069.18,
+          5733851.14,
+          5832638.46
         ],
         "debian": [
-          237005.09,
-          854112.96,
-          2410958.08,
-          4389939.15,
-          5783781.38,
-          5943220.24
+          238342.03,
+          831388.03,
+          2381482.24,
+          4383247.36,
+          5769084.93,
+          5942243.53
         ],
         "alpine": [
-          115465.28,
-          435333.63,
-          1449700.35,
-          3356187.65,
-          5420220.42,
-          5820497.92
+          111794.21,
+          431317.63,
+          1435703.81,
+          3346375.68,
+          5518983.17,
+          5824839.68
         ],
         "ubuntu": [
-          237934.54,
-          848201.54,
-          2397884.16,
-          4369742.85,
-          5715476.48,
-          5894373.38
+          238840.7,
+          850304.32,
+          2410507.26,
+          4347409.41,
+          5575073.79,
+          5820170.24
         ]
       },
       "sha512": {
         "fips": [
-          108077.38,
-          431933.76,
-          827971.07,
-          1352475.65,
-          1632264.19,
-          1634385.92
+          107936.42,
+          431883.52,
+          843607.81,
+          1351934.98,
+          1634926.59,
+          1640759.3
         ],
         "debian": [
-          100869.94,
-          404480,
-          827723.52,
-          1336564.74,
-          1636638.72,
-          1664303.1
+          100916.37,
+          403590.02,
+          813957.12,
+          1339152.38,
+          1636384.77,
+          1663942.66
         ],
         "alpine": [
-          68940.03,
-          292069.95,
-          675346.69,
-          1229201.41,
-          1616076.8,
-          1652932.61
+          70429.86,
+          291646.66,
+          674670.08,
+          1229495.3,
+          1614249.98,
+          1620164.61
         ],
         "ubuntu": [
-          103116.63,
-          414737.6,
-          835026.94,
-          1334936.74,
-          1627078.66,
-          1671135.23
+          103915.63,
+          415557.38,
+          836821.25,
+          1344294.91,
+          1636769.79,
+          1663123.46
         ]
       },
       "sha3-256": {
         "fips": [
-          74668.93,
-          301298.94,
-          701954.82,
-          801471.49,
-          874496,
-          877838.34
+          75020.51,
+          301214.34,
+          700958.21,
+          788610.05,
+          873168.9,
+          874561.54
         ],
         "debian": [
-          67416.42,
-          264880.13,
-          656878.08,
-          786429.95,
-          876167.17,
-          887078.91
+          67497.78,
+          269866.11,
+          655748.35,
+          785656.83,
+          875724.8,
+          887013.38
         ],
         "alpine": [
-          51989.04,
-          213540.35,
-          579324.42,
-          737720.32,
-          879362.05,
-          881033.22
+          52182.98,
+          211087.62,
+          580967.17,
+          757824.51,
+          879026.18,
+          893992.96
         ],
         "ubuntu": [
-          66216.11,
-          265461.18,
-          651953.92,
-          783495.17,
-          874717.18,
-          887259.14
+          67486.27,
+          270576.77,
+          661313.79,
+          785387.52,
+          866566.14,
+          876560.38
         ]
       }
     }
@@ -21309,177 +21309,177 @@
       "os": "fips",
       "version": "3.5.5",
       "algorithm": "AES-256-GCM",
-      "16b": 178152.86,
-      "64b": 595934.4,
-      "256b": 2001285.12,
-      "1024b": 4459489.28,
-      "8192b": 7080435.71,
-      "16384b": 7322075.14
+      "16b": 178205.54,
+      "64b": 630122.88,
+      "256b": 2023343.87,
+      "1024b": 4470122.5,
+      "8192b": 7057784.83,
+      "16384b": 7386693.63
     },
     {
       "os": "fips",
       "version": "3.5.5",
       "algorithm": "sha256",
-      "16b": 270535.82,
-      "64b": 934666.18,
-      "256b": 2573256.19,
-      "1024b": 4491328.51,
-      "8192b": 5599674.37,
-      "16384b": 5858148.35
+      "16b": 273165.25,
+      "64b": 944297.34,
+      "256b": 2470706.18,
+      "1024b": 4495069.18,
+      "8192b": 5733851.14,
+      "16384b": 5832638.46
     },
     {
       "os": "fips",
       "version": "3.5.5",
       "algorithm": "sha512",
-      "16b": 108077.38,
-      "64b": 431933.76,
-      "256b": 827971.07,
-      "1024b": 1352475.65,
-      "8192b": 1632264.19,
-      "16384b": 1634385.92
+      "16b": 107936.42,
+      "64b": 431883.52,
+      "256b": 843607.81,
+      "1024b": 1351934.98,
+      "8192b": 1634926.59,
+      "16384b": 1640759.3
     },
     {
       "os": "fips",
       "version": "3.5.5",
       "algorithm": "sha3-256",
-      "16b": 74668.93,
-      "64b": 301298.94,
-      "256b": 701954.82,
-      "1024b": 801471.49,
-      "8192b": 874496,
-      "16384b": 877838.34
+      "16b": 75020.51,
+      "64b": 301214.34,
+      "256b": 700958.21,
+      "1024b": 788610.05,
+      "8192b": 873168.9,
+      "16384b": 874561.54
     },
     {
       "os": "debian",
       "version": "3.0.20",
       "algorithm": "AES-256-GCM",
-      "16b": 88422.85,
-      "64b": 329439.23,
-      "256b": 1171798.78,
-      "1024b": 3154589.7,
-      "8192b": 6645473.28,
-      "16384b": 6974341.12
+      "16b": 85825.92,
+      "64b": 310718.34,
+      "256b": 1155572.22,
+      "1024b": 3125248,
+      "8192b": 6651731.97,
+      "16384b": 7248707.58
     },
     {
       "os": "debian",
       "version": "3.0.20",
       "algorithm": "sha256",
-      "16b": 237005.09,
-      "64b": 854112.96,
-      "256b": 2410958.08,
-      "1024b": 4389939.15,
-      "8192b": 5783781.38,
-      "16384b": 5943220.24
+      "16b": 238342.03,
+      "64b": 831388.03,
+      "256b": 2381482.24,
+      "1024b": 4383247.36,
+      "8192b": 5769084.93,
+      "16384b": 5942243.53
     },
     {
       "os": "debian",
       "version": "3.0.20",
       "algorithm": "sha512",
-      "16b": 100869.94,
-      "64b": 404480,
-      "256b": 827723.52,
-      "1024b": 1336564.74,
-      "8192b": 1636638.72,
-      "16384b": 1664303.1
+      "16b": 100916.37,
+      "64b": 403590.02,
+      "256b": 813957.12,
+      "1024b": 1339152.38,
+      "8192b": 1636384.77,
+      "16384b": 1663942.66
     },
     {
       "os": "debian",
       "version": "3.0.20",
       "algorithm": "sha3-256",
-      "16b": 67416.42,
-      "64b": 264880.13,
-      "256b": 656878.08,
-      "1024b": 786429.95,
-      "8192b": 876167.17,
-      "16384b": 887078.91
+      "16b": 67497.78,
+      "64b": 269866.11,
+      "256b": 655748.35,
+      "1024b": 785656.83,
+      "8192b": 875724.8,
+      "16384b": 887013.38
     },
     {
       "os": "alpine",
       "version": "3.5.7",
       "algorithm": "AES-256-GCM",
-      "16b": 124859.39,
-      "64b": 450728.13,
-      "256b": 1521726.98,
-      "1024b": 3761095.68,
-      "8192b": 6923157.5,
-      "16384b": 7375011.84
+      "16b": 124670.64,
+      "64b": 453982.85,
+      "256b": 1538155.78,
+      "1024b": 3771531.26,
+      "8192b": 6825238.53,
+      "16384b": 7327170.56
     },
     {
       "os": "alpine",
       "version": "3.5.7",
       "algorithm": "sha256",
-      "16b": 115465.28,
-      "64b": 435333.63,
-      "256b": 1449700.35,
-      "1024b": 3356187.65,
-      "8192b": 5420220.42,
-      "16384b": 5820497.92
+      "16b": 111794.21,
+      "64b": 431317.63,
+      "256b": 1435703.81,
+      "1024b": 3346375.68,
+      "8192b": 5518983.17,
+      "16384b": 5824839.68
     },
     {
       "os": "alpine",
       "version": "3.5.7",
       "algorithm": "sha512",
-      "16b": 68940.03,
-      "64b": 292069.95,
-      "256b": 675346.69,
-      "1024b": 1229201.41,
-      "8192b": 1616076.8,
-      "16384b": 1652932.61
+      "16b": 70429.86,
+      "64b": 291646.66,
+      "256b": 674670.08,
+      "1024b": 1229495.3,
+      "8192b": 1614249.98,
+      "16384b": 1620164.61
     },
     {
       "os": "alpine",
       "version": "3.5.7",
       "algorithm": "sha3-256",
-      "16b": 51989.04,
-      "64b": 213540.35,
-      "256b": 579324.42,
-      "1024b": 737720.32,
-      "8192b": 879362.05,
-      "16384b": 881033.22
+      "16b": 52182.98,
+      "64b": 211087.62,
+      "256b": 580967.17,
+      "1024b": 757824.51,
+      "8192b": 879026.18,
+      "16384b": 893992.96
     },
     {
       "os": "ubuntu",
       "version": "3.5.5",
       "algorithm": "AES-256-GCM",
-      "16b": 158170.02,
-      "64b": 554567.42,
-      "256b": 1830663.17,
-      "1024b": 4117874.69,
-      "8192b": 7066034.18,
-      "16384b": 7483686.91
+      "16b": 158374.74,
+      "64b": 552882.3,
+      "256b": 1808340.74,
+      "1024b": 4234372.1,
+      "8192b": 7086964.74,
+      "16384b": 7474249.73
     },
     {
       "os": "ubuntu",
       "version": "3.5.5",
       "algorithm": "sha256",
-      "16b": 237934.54,
-      "64b": 848201.54,
-      "256b": 2397884.16,
-      "1024b": 4369742.85,
-      "8192b": 5715476.48,
-      "16384b": 5894373.38
+      "16b": 238840.7,
+      "64b": 850304.32,
+      "256b": 2410507.26,
+      "1024b": 4347409.41,
+      "8192b": 5575073.79,
+      "16384b": 5820170.24
     },
     {
       "os": "ubuntu",
       "version": "3.5.5",
       "algorithm": "sha512",
-      "16b": 103116.63,
-      "64b": 414737.6,
-      "256b": 835026.94,
-      "1024b": 1334936.74,
-      "8192b": 1627078.66,
-      "16384b": 1671135.23
+      "16b": 103915.63,
+      "64b": 415557.38,
+      "256b": 836821.25,
+      "1024b": 1344294.91,
+      "8192b": 1636769.79,
+      "16384b": 1663123.46
     },
     {
       "os": "ubuntu",
       "version": "3.5.5",
       "algorithm": "sha3-256",
-      "16b": 66216.11,
-      "64b": 265461.18,
-      "256b": 651953.92,
-      "1024b": 783495.17,
-      "8192b": 874717.18,
-      "16384b": 887259.14
+      "16b": 67486.27,
+      "64b": 270576.77,
+      "256b": 661313.79,
+      "1024b": 785387.52,
+      "8192b": 866566.14,
+      "16384b": 876560.38
     }
   ],
   "bench_signatures_raw": [
@@ -21487,74 +21487,74 @@
       "os": "fips",
       "version": "3.5.5",
       "algorithm": "rsa2048",
-      "sign_ops": 3348,
-      "verify_ops": 114540
+      "sign_ops": 3337.7,
+      "verify_ops": 114327
     },
     {
       "os": "fips",
       "version": "3.5.5",
       "algorithm": "ecdsap256",
-      "sign_ops": 114802,
-      "verify_ops": 34734
+      "sign_ops": 114604,
+      "verify_ops": 35157
     },
     {
       "os": "debian",
       "version": "3.0.20",
       "algorithm": "rsa2048",
-      "sign_ops": 3344,
-      "verify_ops": 113984
+      "sign_ops": 3345,
+      "verify_ops": 113687
     },
     {
       "os": "debian",
       "version": "3.0.20",
       "algorithm": "ecdsap256",
-      "sign_ops": 108052,
-      "verify_ops": 34713
+      "sign_ops": 107168,
+      "verify_ops": 34803
     },
     {
       "os": "alpine",
       "version": "3.5.7",
       "algorithm": "rsa2048",
-      "sign_ops": 3246.5,
-      "verify_ops": 109432
+      "sign_ops": 3324,
+      "verify_ops": 109304
     },
     {
       "os": "alpine",
       "version": "3.5.7",
       "algorithm": "ecdsap256",
-      "sign_ops": 104644,
-      "verify_ops": 34220
+      "sign_ops": 104029,
+      "verify_ops": 34226
     },
     {
       "os": "ubuntu",
       "version": "3.5.5",
       "algorithm": "rsa2048",
-      "sign_ops": 3346,
-      "verify_ops": 113184
+      "sign_ops": 3341,
+      "verify_ops": 113176
     },
     {
       "os": "ubuntu",
       "version": "3.5.5",
       "algorithm": "ecdsap256",
-      "sign_ops": 113074,
-      "verify_ops": 35054
+      "sign_ops": 114676,
+      "verify_ops": 35055
     }
   ],
   "provenance": {
     "distroless": {
-      "digest": "sha256:ee626e89616e293106bb29acbca35617b2958d3098d129e1345053b41a10c771",
-      "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403556",
-      "sbom_url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403561"
+      "digest": "sha256:82f734a74298035530777fb0a3bb15a24d180916ae94c33cf6e444360cd822e8",
+      "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409777",
+      "sbom_url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409791"
     },
     "standard": {
-      "digest": "sha256:689384281f5ec46ebaaef9c4503c600aa43874623396acf6d3807843fccdf913",
-      "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403559",
-      "sbom_url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403567"
+      "digest": "sha256:80da25b652c8e22656607802b1526d0a73fd142fcbbbf37474f4a567fdf6ebbe",
+      "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409794",
+      "sbom_url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409809"
     },
     "development": {
-      "digest": "sha256:25146d09c4c8dbf2807503ef1ffc1ef827ba8d9b92f7caf5270a6ba7d9a50883",
-      "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403557",
-      "sbom_url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403583"
+      "digest": "sha256:ce8d38acc9abd878c07419ccd2ccedc4613ee99af7ade8df1c51dcf2e342b7dd",
+      "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409786",
+      "sbom_url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409814"
     }
   },
   "packages": [
@@ -21679,37 +21679,37 @@
     "development_attestation_details": {
       "target": "development",
       "provenance": {
-        "id": "38403557",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403557",
-        "digest": "sha256:25146d09c4c8dbf2807503ef1ffc1ef827ba8d9b92f7caf5270a6ba7d9a50883"
+        "id": "38409786",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409786",
+        "digest": "sha256:ce8d38acc9abd878c07419ccd2ccedc4613ee99af7ade8df1c51dcf2e342b7dd"
       },
       "sbom": {
-        "id": "38403583",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403583"
+        "id": "38409814",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409814"
       }
     },
     "distroless_attestation_details": {
       "target": "distroless",
       "provenance": {
-        "id": "38403556",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403556",
-        "digest": "sha256:ee626e89616e293106bb29acbca35617b2958d3098d129e1345053b41a10c771"
+        "id": "38409777",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409777",
+        "digest": "sha256:82f734a74298035530777fb0a3bb15a24d180916ae94c33cf6e444360cd822e8"
       },
       "sbom": {
-        "id": "38403561",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403561"
+        "id": "38409791",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409791"
       }
     },
     "standard_attestation_details": {
       "target": "standard",
       "provenance": {
-        "id": "38403559",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403559",
-        "digest": "sha256:689384281f5ec46ebaaef9c4503c600aa43874623396acf6d3807843fccdf913"
+        "id": "38409794",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409794",
+        "digest": "sha256:80da25b652c8e22656607802b1526d0a73fd142fcbbbf37474f4a567fdf6ebbe"
       },
       "sbom": {
-        "id": "38403567",
-        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38403567"
+        "id": "38409809",
+        "url": "https://github.com/taha2samy-3/openssl_fips/attestations/38409809"
       }
     }
   }
