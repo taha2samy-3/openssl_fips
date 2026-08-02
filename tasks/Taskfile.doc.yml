@@ -1,6 +1,19 @@
 version: '3'
 
 tasks:
+  generate_benchmark_data:
+    desc: "Run performance benchmarks test for FIPS image vs debian ubuntu alpine"
+    dir: benchmark
+    cmds:
+      - chmod +x ./run_benchmark.sh
+      - ./run_benchmark.sh
+
+  parse_benchmark_data:
+    desc: "Parse benchmark results to be csv files results.csv and signatures.csv."
+    cmds:
+      - pipenv run python benchmark/parser.py || python3 benchmark/parser.py
+      - pipenv run python benchmark/parser_signatures.py || python3 benchmark/parser_signatures.py
+
   build:
     desc: "Compile all reports into web/data.json and build static dashboard"
     cmds:
