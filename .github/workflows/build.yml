@@ -8,7 +8,6 @@ env:
   IMAGE_NAME: ${{ github.repository_owner }}/wolfi-openssl-fips
   repo_of_registry: wolfi-openssl-fips
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,19 +20,18 @@ jobs:
       development_digest: ${{ steps.extract_digests.outputs.development_digest }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+        uses: actions/checkout@v4
       - name: Set up Docker Buildx
-        uses: 
-          docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f  # v3
+        uses: docker/setup-buildx-action@v3
       - name: Log in to GHCR
-        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9  # v3
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
-        uses: docker/bake-action@5be5f02ff8819ecd3092ea6b2e6261c31774f2b4  # v6
+        uses: docker/bake-action@v6
         env:
           DOCKER_BUILD_SUMMARY: false
           DOCKER_BUILD_RECORD_UPLOAD: false
@@ -53,9 +51,7 @@ jobs:
           echo "standard_digest=$(echo $metadata | jq -r '.standard."containerimage.digest"')" >> $GITHUB_OUTPUT
           echo "distroless_digest=$(echo $metadata | jq -r '.distroless."containerimage.digest"')" >> $GITHUB_OUTPUT
           echo "development_digest=$(echo $metadata | jq -r '.development."containerimage.digest"')" >> $GITHUB_OUTPUT
-          echo "standard_digest=$(echo $metadata | jq -r '.standard."containerimage.digest"')"
-          echo "distroless_digest=$(echo $metadata | jq -r '.distroless."containerimage.digest"')"
-          echo "development_digest=$(echo $metadata | jq -r '.development."containerimage.digest"')"
+
   attest:
     needs: build
     runs-on: ubuntu-latest
@@ -72,13 +68,13 @@ jobs:
 
     steps:
       - name: Log in to GHCR
-        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9  # v3
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout repository
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        uses: actions/checkout@v4
       - name: Setup Taskfile
         uses: ./.github/actions/setup-task
 
@@ -94,8 +90,7 @@ jobs:
           fi
 
       - name: Attest Provenance
-        uses: 
-          actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a  # v3
+        uses: actions/attest-build-provenance@v3
         id: attest_provenance-image
         with:
           subject-name: ghcr.io/${{ github.repository_owner }}/wolfi-openssl-fips
@@ -105,13 +100,14 @@ jobs:
 
       - name: Generate SBOM (CycloneDX)
         id: generate_sbom
-        uses: anchore/sbom-action@28d71544de8eaf1b958d335707167c5f783590ad  # v0.22.2
+        uses: anchore/sbom-action@v0.22.2
         with:
-          image: ghcr.io/${{ github.repository_owner }}/wolfi-openssl-fips@${{steps.set_digest.outputs.digest }}
+          image: ghcr.io/${{ github.repository_owner }}/wolfi-openssl-fips@${{ steps.set_digest.outputs.digest }}
           format: cyclonedx-json
           output-file: ${{ matrix.target_name }}.cyclonedx.json
           upload-artifact: false
           dependency-snapshot: false
+
       - name: Upload SBOM to Dependency Graph
         run: |
           task gh:upload-sbom \
@@ -123,9 +119,8 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_REF: ${{ github.ref }}
 
-
       - name: Attest SBOM
-        uses: actions/attest-sbom@4651f806c01d8637787e274ac3bdf724ef169f34  # v3
+        uses: actions/attest-sbom@v3
         id: attest_sbom
         with:
           subject-name: ghcr.io/${{ github.repository_owner }}/wolfi-openssl-fips
@@ -133,10 +128,6 @@ jobs:
           sbom-path: ${{ matrix.target_name }}.cyclonedx.json
           push-to-registry: true
           show-summary: false
-
-      - name: Save URL to file
-        run: |
-          echo "" detail.json
 
       - name: Save Attestation Details to JSON
         run: |
@@ -154,14 +145,14 @@ jobs:
           }' > ${{ matrix.target_name }}_attestation_details.json
 
       - name: Upload Attestation Metadata
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        uses: actions/upload-artifact@v4
         with:
           name: attestation-metadata-${{ matrix.target_name }}
           path: ${{ matrix.target_name }}_attestation_details.json
           retention-days: 1
 
       - name: Upload Clean SBOM
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        uses: actions/upload-artifact@v4
         with:
           name: reports-sbom-${{ matrix.target_name }}
           path: ${{ matrix.target_name }}.cyclonedx.json
@@ -171,16 +162,15 @@ jobs:
     needs: [attest]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+      - uses: actions/checkout@v4
       - name: Setup Taskfile
         uses: ./.github/actions/setup-task
-
       - name: Generate benchmark data
         run: task docs:generate_benchmark_data
       - name: Parse benchmark data
         run: task docs:parse_benchmark_data
       - name: Upload Benchmarks
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        uses: actions/upload-artifact@v4
         with:
           name: reports-benchmarks
           path: reports/
@@ -192,13 +182,13 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+      - uses: actions/checkout@v4
       - name: Setup Taskfile
         uses: ./.github/actions/setup-task
       - name: Generate docs tests
         run: task audit:multi
       - name: Upload Audit Reports
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        uses: actions/upload-artifact@v4
         with:
           name: reports-audit
           path: reports/
@@ -210,10 +200,9 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+      - uses: actions/checkout@v4
       - name: Run KICS Scan
-        uses: 
-          checkmarx/kics-github-action@00def9108246ec656aea725db2167522d26a99d2  # v2.1.19
+        uses: checkmarx/kics-github-action@v2.1.19
         with:
           path: '.'
           config_path: './kics.yaml'
@@ -221,7 +210,7 @@ jobs:
           output_formats: 'json,sarif'
           ignore_on_exit: results
       - name: Upload KICS Reports
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        uses: actions/upload-artifact@v4
         with:
           name: reports-kics
           path: reports/
@@ -245,30 +234,22 @@ jobs:
             id: "development"
 
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
-
+      - uses: actions/checkout@v4
       - name: Setup Taskfile
         uses: ./.github/actions/setup-task
-
       - name: run trivy ${{ matrix.id }}
         run: |
           sudo -E task ${{ matrix.task_name }}
-
       - name: Upload Artifacts
         if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4
+        uses: actions/upload-artifact@v4
         with:
           name: reports-trivy-${{ matrix.id }}
           path: reports/
           retention-days: 1
 
-
-
-
-
-  readme:
-    needs: [attest, benchmarking, fips-verification-suite, kics-scan, 
-          scan-compliance]
+  deploy-web-dashboard:
+    needs: [attest, benchmarking, fips-verification-suite, kics-scan, scan-compliance]
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -277,42 +258,57 @@ jobs:
       id-token: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
-      - name: create stage directory
-        run: mkdir reports
-      - name: Download all metadata artifacts
-        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093  # v4
+        uses: actions/checkout@v4
+
+      - name: Create Stage Directories
+        run: |
+          mkdir -p reports
+          mkdir -p all-metadata
+
+      - name: Download All Report & Metadata Artifacts
+        uses: actions/download-artifact@v4
         with:
           path: reports/
           pattern: "*"
           merge-multiple: true
 
-
-      - name: Verify and Print All Files
+      - name: Organize Metadata Files into all-metadata/
         run: |
+          cp reports/*_attestation_details.json all-metadata/ 2>/dev/null || true
           echo "=========================================="
-          echo "All collected files (FLAT STRUCTURE):"
+          echo "All Collected Reports Files:"
+          ls -la reports/
           echo "=========================================="
-          ls -R reports/
+          echo "All Collected Metadata Files:"
+          ls -la all-metadata/
 
-      - name: Setup Taskfile
-        uses: ./.github/actions/setup-task
-      - name: change permissions
-        run: sudo chmod -R 777 .
-      - name: debug
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Web NPM Dependencies (inside web/ folder)
         run: |
-          ls -la reports/ 
-      - name: Build MkDocs site
-        run: task docs:build-MkDocs-site
+          if [ -f web/package.json ]; then
+            cd web && npm install
+          fi
 
-      - name: Deploy to GitHub Pages
-        uses: 
-          peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e  # v4
+      - name: Build Web Dashboard Payload
+        run: |
+          node web/builder.js
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Change Permissions for Static Web Files
+        run: sudo chmod -R 777 web/
+
+      - name: Deploy Dynamic Web Dashboard to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-
-
+          publish_dir: ./web
 
       - name: Cleanup Dangling Images
         uses: ./.github/actions/cleanup-ghcr
@@ -320,17 +316,16 @@ jobs:
           package_name: "wolfi-openssl-fips"
           token: ${{ secrets.GITHUB_TOKEN }}
 
-
   cleanup-ghcr-images:
-      needs: [readme]
-      runs-on: ubuntu-latest
-      permissions:
-        packages: write
-      steps:
-        - uses: dataaxiom/ghcr-cleanup-action@v1
-          with:
-            token: ${{ secrets.GITHUB_TOKEN }}
-            package: ${{ env.repo_of_registry }}
-            older-than: 1 day
-            delete-untagged: true
-            keep-n-tagged: 0  
+    needs: [deploy-web-dashboard]
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    steps:
+      - uses: dataaxiom/ghcr-cleanup-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          package: ${{ env.repo_of_registry }}
+          older-than: 1 day
+          delete-untagged: true
+          keep-n-tagged: 0
